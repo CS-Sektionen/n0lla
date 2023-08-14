@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-    <title>Mottagning C/DV 2022</title>
+    <title>Mottagning C/DV 2023</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
 
@@ -17,6 +17,13 @@
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+	body {
+		background-color: rgb(6, 86, 136);
+	}
+	p {
+		color: #e3cccc;
+	}
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -67,6 +74,22 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .carousel-item {
+      position: relative;
+      height: 100vh; /* Set the carousel item height to the viewport height */
+    }
+
+    .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 50%; /* Center the image horizontally */
+      transform: translateX(-50%); /* Adjust to center the image */
+      max-width: 100%; /* Maintain image aspect ratio */
+      max-height: 100%; /* Limit image height to carousel height */
+      width: auto;
+      height: auto;
+    }
+
     </style>
 
     
@@ -109,11 +132,10 @@
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/bild.jpeg" width="100%" alt="">
-
+        <img src="img/wallahi.JPG" alt="">
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1 style="color: #FFF;">Mottagning C/DV 2022</h1>
+            <h1 style="position:relative; text-align: center; top:80px; color: #000000; font-weight: bold;background-color:yellow;">MOTTAGNING C/DV 2023</h1>
           </div>
         </div>
       </div>
@@ -128,12 +150,13 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
+    <div class="row" style="margin-top: 2rem;">
       <div class="col-12">
 	<a href="img/capsrule.pdf" target="_blank">CAPS REGLER</a>
 	<br>
-        <p>Hej mottagningsdeltagare!</p>
+        <p>Hej n0lla!</p>
         <p>På denna hemsida hittar du information kring mottagningen. Vilka regler som gäller osv.</p>
+        
       </div>
     </div>
 
