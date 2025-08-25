@@ -1,181 +1,91 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.101.0">
-    <title>Mottagning C/DV 2024</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Dessinator">
+  <meta name="generator" content="Hugo 0.101.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/cslogga.png" />
+  <title>Mottagning C/DV 2025</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
-
-    
-
-    
-
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-	body {
-		background-color: rgb(6, 86, 136);
-	}
-	p {
-		color: #e3bccc;
-	}
-
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-      .carousel-item {
-      position: relative;
-      height: 100vh; /* Set the carousel item height to the viewport height */
-    }
-
-    .carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 50%; /* Center the image horizontally */
-      transform: translateX(-50%); /* Adjust to center the image */
-      max-width: 100%; /* Maintain image aspect ratio */
-      max-height: 100%; /* Limit image height to carousel height */
-      width: auto;
-      height: auto;
-    }
-
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Hem</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="vett-etikett.html">Vett och etikett</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sangboken.html">Sångboken</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Kontakt</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="schema.html">Schema</a>
-          </li>
-        </ul>
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="carousel.css" rel="stylesheet">
+</head>
+<body class="home">
+  
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="img/cslogga.png" alt="Mottagning Logo" height="40" class="me-2">
+        </a>
+  
+        <!-- Mobile toggle button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Hem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vett-etikett.html">Vett och etikett</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sangboken.html">Sångboken</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="schema.html">Schema</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
 <main>
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/2024.jpg" alt="">
+        <img src="img/2025.jpg" alt="">
         <div class="container">
-          <div class="carousel-caption text-start">
-            <h1 style="position:relative; text-align: center; top:80px; color: #000000; font-weight: bold;background-color:yellow;">MOTTAGNING C/DV 2024</h1>
+          <div class="carousel-caption">
+            <h1 class="carousel-title">MOTTAGNING C/DV 2025</h1>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
   <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row" style="margin-top: 2rem;">
+    <div class="row mt-4">
       <div class="col-12">
-	<a href="img/capsrule.pdf" target="_blank" style="color: yellow;">CAPS REGLER</a>
-	<br>
-	<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2Fn27UHH5GUS7oQzvo8%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR0YXZqidw4Cd8LOx4432zaJZL3JBBb9Z_oXGyJ0CtDl6sLf8RM_w7omk5U_aem_YsN8Yf6pgZv9Zq-fvBzWuA&h=AT13d_DwWsaDHK3HoT7PZtcKsK0teYx1KmgKpXrdoCrLAqlXto-gVCUcwasUqJ4_xINCiXN-Qx_ge6BtHpob79Z0CuzbRMA5WLNS099Ofw1ualAMK3wNrDYxXFpd52gBoWSVFXP38cuEq5Y" target="_blank" style="color: yellow;">Klicka här om du har anonym feedback</a>
-	<br>
-        <p>Hej n0lla!</p>
+        <a href="img/capsrule.pdf" target="_blank" class="tech-link" style="margin-bottom: 10px;">CAPS REGLER</a>
+        <br>
+        <a href="https://docs.google.com/forms/d/1gAqmWtjiMM5H4aaIKuj3chcBwyDD34ULoS8w_-7OPWo/viewform?edit_requested=true"
+           target="_blank" class="tech-link">Klicka här om du har anonym feedback</a>
+        <br>
+        <p style="padding-top: 30px;">Hej n0lla!</p>
         <p>På denna hemsida hittar du information kring mottagningen. Vilka regler som gäller osv.</p>
-        
       </div>
     </div>
-
-
-    <!-- START THE FEATURETTES -->
-
-  
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
+  </div>
 
 </main>
 
-
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
       
   </body>
 </html>
